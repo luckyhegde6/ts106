@@ -7,7 +7,7 @@ import { performance } from 'perf_hooks';
 export function LogExecutionTime(options: Partial<LogOptions> = {}) {
   const opts = { level: 'info' as LogLevel, showExecutionTime: true, ...options };
   return function (
-    target: Object,
+    target: object,
     propertyKey: string | symbol,
     descriptor: PropertyDescriptor
   ) {

@@ -6,7 +6,7 @@ import { ConsoleLogger } from '../logger';
 export function LogMethod(options: LogOptions = {}) {
   const opts = { level: 'info' as LogLevel, showArgs: true, showResult: true, ...options };
   return function (
-    target: Object,
+    target: object,
     propertyKey: string | symbol,
     descriptor: PropertyDescriptor
   ) {

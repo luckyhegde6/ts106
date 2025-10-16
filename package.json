@@ -12,15 +12,17 @@
     "prepare": "npm run build"
   },
   "devDependencies": {
+    "@eslint/js": "^8.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "*",
     "coverage-percentage": "^0.0.2",
-    "eslint": "*",
+    "eslint": "^8.0.0",
     "eslint-config-prettier": "*",
     "jest": "*",
     "prettier": "*",
     "ts-jest": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "typescript-eslint": "^8.46.1"
   },
   "dependencies": {
     "reflect-metadata": "*"
@@ -38,3 +40,4 @@
   },
   "homepage": "https://github.com/luckyhegde6/ts106#readme"
 }
+
