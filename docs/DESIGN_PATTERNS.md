@@ -1,5 +1,9 @@
 # Design Patterns in the Logger Decorator Library
 
+- Decorator pattern: we decorate methods to augment behavior.
+- AOP: Logging is implemented as a cross-cutting concern via decorators.
+- Proxy-like behavior: decorators wrap original methods similar to proxies.
+
 ## 1. Decorator Pattern
 Each decorator wraps a function or class method, adding logging or timing behavior without altering core logic.
 
