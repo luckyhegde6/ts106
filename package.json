@@ -1,0 +1,39 @@
+{
+  "name": "logger-decorator-library",
+  "description": "Decorators &amp; Metadata  Topics: Decorators, reflection, design patterns Mini Project: “Logger Decorator Library”  Create decorators for logging method calls and execution time. Goal: Learn how TS decorators power frameworks like NestJS.",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest --coverage",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "coverage": "jest --coverage",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "jest": "*",
+    "prettier": "*",
+    "ts-jest": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "reflect-metadata": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyhegde6/ts106.git"
+  },
+  "keywords": [],
+  "author": "lucyhegde6",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luckyhegde6/ts106/issues"
+  },
+  "homepage": "https://github.com/luckyhegde6/ts106#readme"
+}
