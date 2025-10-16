@@ -1,6 +1,6 @@
 # Logger Decorator Library
 
-![CI](https://github.com/YOUR_USERNAME/logger-decorator-library/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/luckyhegde6/t1060/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey)
 
 A learning-focused TypeScript library illustrating decorators, reflect-metadata and AOP-style logging.
