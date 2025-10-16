@@ -6,13 +6,16 @@ on:
   pull_request:
     branches: [ main, master ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write    # needed for README badge updates
-      pull-requests: write
-      checks: write
+    outputs:
+      coverage-path: coverage
 
     steps:
       - name: Checkout repository
