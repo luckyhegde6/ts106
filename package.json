@@ -22,7 +22,7 @@
     "prettier": "*",
     "ts-jest": "*",
     "typescript": "*",
-    "typescript-eslint": "^8.46.1"
+    "typescript-eslint": "^8.46.2"
   },
   "dependencies": {
     "reflect-metadata": "*"
