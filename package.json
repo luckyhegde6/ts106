@@ -16,7 +16,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "*",
     "coverage-percentage": "^0.0.2",
-    "eslint": "^8.0.0",
+    "eslint": "^9.39.0",
     "eslint-config-prettier": "*",
     "jest": "*",
     "prettier": "*",
