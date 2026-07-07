@@ -8,22 +8,20 @@ A learning-focused TypeScript library illustrating decorators, reflect-metadata 
 
 ## Quick start
 
-1. `npm install`
-2. `npm run build`
-3. `npm run test`
-4. `npm run lint`
-5. `npm run format`
+```bash
+npm install
+npm run build
+npm run test
+npm run lint
+```
 
+## 📚 Documentation
 
-
-## Project layout
-
-See ⚙️ [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed learning guides and architecture notes.
-
-for deep dive into decorators, see 🧩 [LEARNING.md](docs/LEARNING.md).
-Path: [docs/DESIGN_PATTERNS.md](docs/DESIGN_PATTERNS.md)
-
-for design patterns, see 🧠 [DESIGN_PATTERNS.md](docs/DESIGN_PATTERNS.md).
-
-for interview questions, see 🧠 [INTERVIEW_QUESTIONS.md](docs/INTERVIEW_QUESTIONS.md).
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md) — HLD & LLD diagrams
+- [LEARNING.md](docs/LEARNING.md) — Decorators & metadata deep dive
+- [DESIGN_PATTERNS.md](docs/DESIGN_PATTERNS.md) — AOP & decorator patterns
+- [INTERVIEW_QUESTIONS.md](docs/INTERVIEW_QUESTIONS.md) — Interview prep
+- [NEETCODE.md](docs/NEETCODE.md) — Sequence diagram, edge cases, complexity, patterns
+- [GUIDES/decorators.md](docs/GUIDES/decorators.md) — Decorator reference
+- [GUIDES/metadata.md](docs/GUIDES/metadata.md) — Metadata API reference
 
